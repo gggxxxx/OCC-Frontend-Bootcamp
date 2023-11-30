@@ -1,0 +1,95 @@
+.flexItem {
+
+    width: 200px;
+
+    margin: 10px;
+
+    border: 2px black solid;
+
+    background-color: lightblue;
+
+    text-align: center;
+
+    justify-content: center;
+
+    
+
+}
+
+.cross-axis {
+
+    position: absolute;
+
+    right: 50%;
+
+    height: 1080px;
+
+    width: 3px;
+
+    background-color: blue;
+
+}
+
+ 
+
+.main-axis {
+
+    position: absolute;
+
+    top: 50%;
+
+    height: 3px;
+
+    width: 2160px;
+
+    background-color: red;
+
+}
+
+ 
+
+.container {
+    height: 200px;
+    background-color: yellowgreen;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+ 
+
+/* ======= Flexbox properties discussion starts here ========*/
+
+.flexContainer {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.flex1 {
+
+    min-height: 100px;
+
+}
+
+ 
+
+.flex2 {
+
+    min-height: 120px;
+
+}
+
+ 
+
+.flex3 {
+
+    min-height: 140px;
+
+    flex: 3 1 150px ;
+
+ 
+
+}
